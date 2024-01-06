@@ -1,0 +1,17 @@
+version: "3.2"
+
+services:
+#  oracle-db-18-xe:
+#    image: oracle/database:18.4.0-xe
+#    ports:
+#      - 1521:1521
+#      - 5500:5500
+#    environment:
+#      ORACLE_PWD: oracle
+
+  oracle-db-18-xe-prebuilt:
+    image: oracle/database/prebuilt/xe-18.4:1.0
+    ports:
+      - 1521:1521
+      - 5500:5500
+
